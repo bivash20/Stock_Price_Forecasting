@@ -47,6 +47,11 @@ Candidate hidden state: h_t’
 
 Hidden state: h_t = (1 – z_t) * h_{t-1} + z_t * h_t’
 
+**LSTM Architecture**
+
+![Screenshot 2023-12-13 101909](https://github.com/bivash20/Stock_Price_Forecasting/assets/59118240/db3fe43d-78ee-4211-8bcf-6aa5910e1658)
+
+
 **Comparison between time series forecasting techniques LSTM and GRU**
 
 GRUs have a simpler architecture compared to LSTMs. GRUs have two 
