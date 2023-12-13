@@ -1,3 +1,5 @@
+            Project Definition
+
 In this project we aim to predict the stock prices of a
 company using advanced Deep Learning model, GRU.
 Long Short-Term Memory (LSTM) and Gated Recurrent
@@ -42,7 +44,8 @@ Candidate hidden state: h_t’
 
 Hidden state: h_t = (1 – z_t) * h_{t-1} + z_t * h_t’
 
-Comparison between time series forecasting techniques LSTM and GRU
+         Comparison between time series 
+       forecasting techniques LSTM and GRU
 
 GRUs have a simpler architecture compared to LSTMs. GRUs have two 
 gates (update and reset gates) combined with a candidate hidden state, 
