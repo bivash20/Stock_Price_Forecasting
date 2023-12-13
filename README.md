@@ -51,6 +51,9 @@ Hidden state: h_t = (1 – z_t) * h_{t-1} + z_t * h_t’
 
 ![Screenshot 2023-12-13 101909](https://github.com/bivash20/Stock_Price_Forecasting/assets/59118240/db3fe43d-78ee-4211-8bcf-6aa5910e1658)
 
+**GRU Architecture**
+
+![Screenshot 2023-12-13 102205](https://github.com/bivash20/Stock_Price_Forecasting/assets/59118240/d96a60a5-3d08-4641-be56-d876589d4c37)
 
 **Comparison between time series forecasting techniques LSTM and GRU**
 
