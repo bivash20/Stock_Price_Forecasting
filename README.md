@@ -1,4 +1,4 @@
-            **Project Definition**
+**Project Definition**
 
 In this project we aim to predict the stock prices of a
 company using advanced Deep Learning model, GRU.
@@ -10,7 +10,7 @@ prediction. In this project, we will use GRU to predict the
 stock prices of a large multinational Organization ,
 Microsoft.
 
-               **Why do we need GRU?**
+**Why do we need GRU?**
 
 Recurrent Neural Networks (RNNs) are a popular class of neural
 network models used in time series forecasting due to their ability
@@ -27,7 +27,7 @@ limits their ability to remember long-term patterns in the data.
 This can be a problem for time series with long-term
 dependencies, such as those with seasonality or cyclic patterns.
 
-              **Detailed Explanation of GRU**
+**Detailed Explanation of GRU**
 
 To solve the vanishing gradient problem of a standard RNN,
 GRU uses, so-called, update gate and reset gate. Basically,
@@ -47,8 +47,7 @@ Candidate hidden state: h_t’
 
 Hidden state: h_t = (1 – z_t) * h_{t-1} + z_t * h_t’
 
-         **Comparison between time series 
-       forecasting techniques LSTM and GRU**
+**Comparison between time series forecasting techniques LSTM and GRU**
 
 GRUs have a simpler architecture compared to LSTMs. GRUs have two 
 gates (update and reset gates) combined with a candidate hidden state, 
@@ -65,7 +64,7 @@ GRUs can perform comparably to LSTMs in many tasks. In certain cases,
 GRUs have been found to converge faster and achieve similar or even
 better results than LSTMs.
 
-            **Accuracy Score of The GRU Model**
+**Accuracy Score of The GRU Model**
 
 Explained_varience =1 – var(y – y')/var(y)
 
