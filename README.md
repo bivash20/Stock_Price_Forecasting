@@ -38,7 +38,9 @@ without washing it through time or remove information which
 is irrelevant to the prediction.
 
 Reset gate: r_t = sigmoid(W_r * [h_{t-1}, x_t])
+
 Update gate: z_t = sigmoid(W_z * [h_{t-1}, x_t])
+
 Candidate hidden state: h_t’
 
 = tanh(W_h * [r_t * h_{t-1}, x_t])
@@ -68,9 +70,11 @@ better results than LSTMs.
 Explained_varience =1 – var(y – y')/var(y)
 
 Train data explained variance regression score: 0.9689423177287514
+
 Test data explained variance regression score: 0.9638433729653627
 
 R squared score
 
 Train data R2 score: 0.9689301236073743
+
 Test data R2 score: 0.9606193540372692
